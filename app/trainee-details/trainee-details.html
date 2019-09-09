@@ -1,0 +1,25 @@
+<div class="container">
+    <h3>{{title}}</h3>
+
+    <form style="padding-top: 1.25rem;">
+
+      <div class="form-group">
+        <label for="id">Trainee Id</label>
+        <input type="text" class="form-control" id="id" ng-model="trainee.traineeId" readonly>        
+      </div>
+      
+      <div class="form-group">
+        <label for="name">Trainee Name</label>
+        <input type="text" class="form-control" id="name" ng-model="trainee.traineeName" readonly>        
+      </div>    
+
+      <div class="button-container">          
+          <a href="#" routerLink="/trainee-remove/{{trainee.traineeId}}" 
+          class="btn btn-danger" role="button">Delete</a>
+        
+          <a ui-sref="trainee-edit({traineeId: trainee.traineeId})" 
+            class="btn btn-primary" role="button">Edit</a>         
+      </div>
+      
+    </form>  
+</div>

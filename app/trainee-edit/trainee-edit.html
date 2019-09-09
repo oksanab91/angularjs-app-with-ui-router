@@ -1,0 +1,25 @@
+<div class="container body-container">
+    <h3>{{title}}</h3>
+
+    <form name="editForm" style="padding-top: 1.25rem;">
+
+      <div class="form-group">
+        <label for="name">Trainee Name</label>
+        <input type="text" class="form-control" id="name" ng-model="trainee.traineeName" required>
+      </div>      
+      <div role="alert">
+        <span class="error" ng-show="editForm.name.$error">Required!</span>
+      </div>
+
+      <div class="button-container">
+        <button type="submit" 
+          class="btn btn-primary" ng-disabled="!editForm.$valid" ng-click="updateTrainee()">Save
+        </button>
+
+        <a ui-sref="trainees.details({traineeId: trainee.traineeId})" 
+            class="btn btn-secondary" role="button">Close
+        </a>         
+      </div>
+      
+    </form>  
+</div>

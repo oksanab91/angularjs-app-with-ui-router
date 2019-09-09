@@ -1,0 +1,96 @@
+html, body {
+  font-size: 18px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-width: 300px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header{
+  border-bottom-color: #ced4da;
+  background-color: #e9ecef;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+header {
+  padding: 1.5rem Calc(1.5rem + 30px);
+}
+
+header > h1{
+  margin: 0;
+}
+
+.body-container{
+  padding: 3rem 1.5rem;
+}
+
+table tbody:last-child{  
+  border-bottom: solid;
+  border-bottom-color: #ced4da;
+  border-bottom-width: 1px;
+}
+
+.list-table{
+  width: 100%";
+}
+
+.tr-row{
+  display: table-row; 
+  display: contents;
+}
+
+.td-data{
+  display: table-cell;
+}
+
+.td-data a:link {  
+  text-decoration-line: none;
+  color: #286090;
+}
+
+label {
+  font-weight: 500;
+}
+
+.btn button, a, button {
+  min-width: 4.5rem;
+}
+
+.active {
+  font-weight: bolder; 
+}
+
+.button-container {
+  line-height: 2.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  html, body {
+    font-size: 16px;
+  }
+
+  .body-container{
+    padding: 2rem 0;
+  }
+
+  header {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .button-container{
+    display: grid;
+  }
+  .btn{
+    margin-bottom: 0.5rem;
+  }
+
+  h1, h3{
+    text-align: center;
+  }
+}
