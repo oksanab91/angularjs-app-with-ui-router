@@ -36,7 +36,7 @@ Now browse to the app at [`localhost:8000/index.html`][local-app-url].
 
 -------------
 
-For more information on AngularJS please check out
+For more information on AngularJS and Angular Seed project please check out
 
 **angularjs.org**: https://angularjs.org/
 
