@@ -29,6 +29,14 @@ header > h1{
   padding: 3rem 1.5rem;
 }
 
+.editForm{
+  padding-top: 1.25rem;
+}
+
+.details-form{  
+  padding: .75rem 0;
+}
+
 table tbody:last-child{  
   border-bottom: solid;
   border-bottom-color: #ced4da;
@@ -76,6 +84,10 @@ label {
 
   .body-container{
     padding: 2rem 0;
+  }
+
+  .details-form {
+    padding-top: 1.25rem;
   }
 
   header {

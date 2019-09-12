@@ -6,7 +6,7 @@ angular.module('myApp.traineesService', []).service('TraineesService', function 
 
         url += traineeId ? '/' + traineeId : '';
                 
-        return $http.get(url, { cache: true }).then(function(resp) {
+        return $http.get(url).then(function(resp) {            
             return resp.data;
         });
     };
