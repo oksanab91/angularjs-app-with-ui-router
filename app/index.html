@@ -4,12 +4,14 @@
 <!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+  <link rel="shortcut icon" type="image/x-icon" ng-href="images/favicon.ico"/>
+
   <title>Trainees AngularJS App</title>
   
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
   <link rel="stylesheet" href="lib/html5-boilerplate/dist/css/normalize.css">
   <link rel="stylesheet" href="lib/html5-boilerplate/dist/css/main.css">
   <link rel="stylesheet" href="app.css">
@@ -26,15 +28,15 @@
     <header>
       <h1>Trainees AngularJS App</h1>
     </header>
-      
-    <ui-view></ui-view>    
+
+    <ui-view></ui-view>
 
     <script src="lib/angular/angular.js"></script>
-    <script src="lib/angular-ui-router.js"></script>    
+    <script src="lib/@uirouter/angularjs/release/angular-ui-router.js"></script>
     <script src="app.js"></script>
-    <script src="app.config.js"></script>  
-    <script src="services/trainees.service.js"></script>    
-    <script src="trainees/trainees.js"></script>   
+    <script src="app.config.js"></script>
+    <script src="services/trainees.service.js"></script> 
+    <script src="trainees/trainees.js"></script>
     <script src="trainee-details/trainee-details.js"></script>
     <script src="trainee-edit/trainee-edit.js"></script>
     <script src="trainee/trainee.directive.js"></script>
