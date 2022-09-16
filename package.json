@@ -10,7 +10,7 @@
     "angular": "^1.7.8",
     "angular-loader": "^1.7.8",
     "angular-route": "^1.7.8",
-    "bootstrap": "3.3.x",
+    "bootstrap": "3.4.x",
     "html5-boilerplate": "0.0.1"
   },
   "devDependencies": {
